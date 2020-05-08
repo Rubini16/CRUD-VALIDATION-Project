@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  width: 50px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f1661bbd 0%, #FA323D 100%);
+  overflow-x: hidden;
+  transition: width 250ms ease-in-out;
+}
+.side-navigation__menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.side-navigation__menu-button-icon {
+  padding: 0 13px;
+}
+
+.side-navigation__menu-button-label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sidebar-icons {
+  list-style-type: none;
+  padding: 0rem;
+  color: #fff;
+}
+.active {
+  color: #fff;
+}
+.nav-link:focus {
+  outline: none;
+}
+.activeNav {
+  padding-left: 0rem;
+}
+#idOne {
+  font-weight: bolder;
+  color: white;
+  padding-right: 0.7rem;
+}

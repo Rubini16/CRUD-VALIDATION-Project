@@ -1,0 +1,123 @@
+.iconFlip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background:-moz-linear-gradient(bottom, #f1661bbd 0%, #FA323D 100%);
+  background: -webkit-linear-gradient(bottom, #f1661bbd 0%, #FA323D 100%);
+  background: linear-gradient(to bottom, #f1661bbd 0%, #FA323D 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+.iconColor {
+  background:-moz-linear-gradient(bottom, #f1661bbd 0%, #FA323D 100%);
+  background: -webkit-linear-gradient(bottom, #f1661bbd 0%, #FA323D 100%);
+  background: linear-gradient(to bottom, #f1661bbd 0%, #FA323D 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+.adressBook {
+  margin-top: 0.7rem;
+}
+.way_icon i:before {
+  display: inline;
+}
+.firstSection {
+  padding: 3rem;
+}
+#sortText {
+  font-weight: bolder;
+}
+.entirePadding {
+  padding: 0rem;
+}
+.search-button{
+  border-radius: 2rem;
+  outline: none;
+}
+.search-button span{
+  text-align: left;
+}
+.dash {
+  max-width: 100%;
+  margin: 0rem;
+}
+.section1 {
+  margin-top: 1.5rem;
+}
+.media-body {
+    flex: 0.3;
+}
+ul .nav-item a {
+  color: black !important;
+}
+.cardBorder {
+  border: none;
+}
+#contact-text {
+  margin: 0rem;
+}
+.dataSort-dropdown {
+  list-style-type: none;
+}
+.buttonColour {
+  background: linear-gradient(to bottom, #f1661bbd 0%, #FA323D 100%);
+  border: none;
+}
+.plus-icon {
+  color: white;
+  text-align: justify;
+}
+.plus-icon-one {
+  color: back;
+  text-align: justify;
+}
+.tableStyle{
+  background-color: #e9ecefc4;
+  color: #6c757dba;
+}
+.section2 {
+  background-color: #e9ecefc4;
+  padding: 1rem;
+  margin: 0rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+}
+.userInfo-one input {
+  border: none;
+  background-color: transparent;
+}
+.userInfo-one ::placeholder {
+  text-align: center;
+  color: black;
+}
+.individualData ::placeholder {
+  color: black;
+}
+.alignInput {
+  text-align: center;
+}
+.paraMargin {
+  margin-bottom: 0rem;
+}
+.formInput-styling {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  border-radius: 0rem;
+}
+.formInput-styling1 {
+  background: transparent;
+  border: none;
+  border-radius: 0rem;
+}
+.fixed-footer {
+  bottom: 0;
+  right: 15px;
+  right: 15px;
+  padding: 1rem;
+  font-size: 3rem;
+  position: fixed;
+  width: 100%;
+}

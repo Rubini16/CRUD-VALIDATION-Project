@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <app-navbar></app-navbar>
+<app-sidebar-menu></app-sidebar-menu> -->
+
+
+
+<ng-sidebar-container style="height: 100vh;">
+
+  <!-- A sidebar -->
+  <ng-sidebar [(opened)]="_opened" position="left"  mode="push" dock="true" dockedSize="50px">
+    <app-sidebar-menu></app-sidebar-menu>
+  </ng-sidebar>
+
+  <!-- Page content -->
+  <div ng-sidebar-content>
+    <app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+  </div>
+
+</ng-sidebar-container>

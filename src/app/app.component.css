@@ -1,0 +1,43 @@
+#loginPara {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.paddingAdmin {
+  padding: 0rem;
+}
+.navbar-overlay {
+  margin-bottom: -100px; /*Pulls the content under the navbar up by 104px which is the height of your navbar.*/
+  z-index: 1; /* Tells the browser that your navbar should be ontop of your content. This allows your links in your navbar to still work when you hover over them.*/
+  padding: 0rem;
+}
+.navbar {
+  padding: 0rem;
+}
+/* :host {
+  display: flex;
+  width: 50px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #F1661B 0%, #FA323D 100%);
+  overflow-x: hidden;
+  transition: width 250ms ease-in-out;
+} */
+
+
+/* .side-navigation__menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.side-navigation__menu-button-icon {
+  padding: 0 13px;
+}
+
+.side-navigation__menu-button-label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sidebar-icons {
+  list-style-type: none;
+  padding: 0rem;
+  color: #fff;
+} */
